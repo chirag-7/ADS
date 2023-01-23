@@ -106,10 +106,10 @@ update[i] = header;
 level = rlevel;
 }
 
-// create new node with random level generated
+
 Node* n = createNode(key, rlevel);
 
-// insert node by rearranging pointers
+
 for(int i=0;i<=rlevel;i++)
 {
 n->forward[i] = update[i]->forward[i];
