@@ -261,7 +261,6 @@ int main(){
         {
         case 1:
             b.levelorder_newline();
-            // to print the tree in level order
             break;
 
         case 2:
